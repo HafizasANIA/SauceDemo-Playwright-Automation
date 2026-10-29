@@ -1,7 +1,6 @@
 
 
-const { test, expect } = require('./fxtures.spec');
-
+const { test, expect } = require('../Fixtures/testFixtures');
 test('TC01- Login using Fixtures', async({page, loginPage}) =>{
 
     await loginPage.open();

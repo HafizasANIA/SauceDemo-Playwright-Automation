@@ -338,8 +338,7 @@ test('TC14 - Sort Products Price Low to High', async({page}) =>{
 
     //get all Products Price
 
-    const priceTexts = await ProductPage.allTextContains();
-
+const priceTexts = await page.locator('.inventory_item_price').allTextContents();
     //Convert prices into numbers
 
     const prices = priceTexts.map(price => Number(price.replace('$','')));
