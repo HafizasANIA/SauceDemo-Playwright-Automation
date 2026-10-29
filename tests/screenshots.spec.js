@@ -1,6 +1,5 @@
 
-const { test, expect } = require('../fixtures/testFixtures');
-
+const { test, expect } = require('../Fixtures/testFixtures');
 test('TC02 - Attach Screenshot to HTML Report', async ({ loggedInPage }, testInfo) => {
 
     // Step 1: Verify inventory page

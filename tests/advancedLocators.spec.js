@@ -1,5 +1,4 @@
-const { test, expect } = require('../fixtures/testFixtures');
-
+const { test, expect } = require('../Fixtures/testFixtures');
 test('TC01 - Add Backpack using advanced Locators', async({loggedInPage}) =>{
 
     //Find the product card by product name
